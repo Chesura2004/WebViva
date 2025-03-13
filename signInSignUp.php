@@ -68,42 +68,42 @@
 
             <div class="container row mt-2">
                 <div class="col-6 mb-3">
-                    <input type="text" class="form-control" placeholder="First Name" />
+                    <input type="text" class="form-control" placeholder="First Name" id="fname"/>
                 </div>
 
                 <div class="col-6 mb-3">
-                    <input type="text" class="form-control" placeholder="Last Name" />
+                    <input type="text" class="form-control" placeholder="Last Name" id="lname"/>
                 </div>
 
                 <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Email" />
+                    <input type="text" class="form-control" placeholder="Email" id="email"/>
                 </div>
 
                 <div class="mb-3 col-6">
-                    <input type="text" class="form-control" placeholder="Password" />
+                    <input type="text" class="form-control" placeholder="Password" id="password"/>
                 </div>
 
                 <div class="mb-3 col-6">
-                    <input type="text" class="form-control" placeholder="Confirm Password" />
+                    <input type="text" class="form-control" placeholder="Confirm Password" id="cpassword"/>
                 </div>
 
                 <div class="mb-3 col-8 pe-0">
                     <div class="form-control pt-0 pb-0 pe-0">
-                        <input type="text" class="phn_in" placeholder="Phone Number" />
+                        <input type="text" class="phn_in" placeholder="Phone Number" id="pnum"/>
                         <button class="codebtn me-0">Get Code</button>
                     </div>
                 </div>
 
                 <div class="mb-3 col-4">
-                    <input type="text" class="form-control" placeholder="Verify Code" />
+                    <input type="text" class="form-control" placeholder="Verify Code" id="vcode"/>
                 </div>
 
                 <div class="mb-3 col-6">
-                    <input type="text" class="form-control" placeholder="Birth Date" />
+                    <input type="text" class="form-control" placeholder="Birth Date" id="bd"/>
                 </div>
 
                 <div class="mb-3 col-6">
-                    <input type="text" class="form-control" placeholder="Gender" />
+                    <input type="text" class="form-control" placeholder="Gender" id="gender"/>
                 </div>
 
             </div>
