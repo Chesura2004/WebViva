@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.bg {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/033/501/763/non_2x/laptop-with-blue-smoke-on-a-black-background-ai-generated-free-photo.jpeg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.bname {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #056cf3;
+}
+
+.bname2{
+    font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.box {
+    height: 40px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 5px 25px rgba(5, 190, 243, 0.3);
+}
+
+.box:hover input {
+    width: 250px;
+}
+
+.box input {
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+.box fas {
+    font-size: 18px;
+}
+
+.icon {
+    border: solid;
+    border-radius: 100%;
+    border-color: rgba(5, 190, 243, 0.3);
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+    background: transparent;
+    color: #05bef3;
+}
+
+.headbtn {
+    border: solid;
+    border-radius: 50px;
+    border-color: rgba(5, 190, 243, 0.3);
+    width: 100px;
+    height: 40px;
+    margin-left: 25px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+}
+
+.headbtn:hover {
+    color: rgba(5, 190, 243, 0.7);
+}
+
+.functions button:hover {
+
+    box-shadow: 0 0 15px rgba(5, 190, 243, 1.0);
+    text-shadow: 0 0 15px rgba(5, 190, 243, 0.8);
+}
+
+.collapse ul {
+    width: 100%;
+}
+
+.contact .tel {
+    transition: ease 0.2s;
+    position: static;
+    visibility: hidden;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(5, 190, 243, 0.5);
+}
+
+.contact:hover .tel {
+    visibility: visible;
+}
+
+.contact .tel:hover {
+    color: #05bef3;
+}
+
+.fa-facebook-f:hover {
+    color: rgba(5, 190, 243, 0.8);
+    text-shadow: 0 0 15px rgba(5, 190, 243, 1.0);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+    align-items: center;
+}
+
+
+.search2{
+    background: #fff;
+    display: flex;
+    width: 40%;
+    height: 55px;
+    align-items: center;
+    border-radius: 50px;
+    transform: translateY(-50%);
+}
+
+.search2 input{
+    padding-left: 22px;
+    width: 92%;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    background: transparent;
+}
+
+.welpgbtn{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    border: solid;
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.welpgbtn:hover{
+    background: rgba(0, 0, 0, 1.0);
+    border-color: rgba(5, 190, 243, 0.3);
+    box-shadow: 0 0 20px rgba(5, 190, 243, 0.8);
+    text-shadow: rgba(5, 190, 243, 0.5);
+    color: #05bef3;
+}
+
+@media screen and (max-width: 1200px) {
+    .search2 input{
+        width: 90%;
+    }
+    .search2{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .search2 input{
+        width: 90%;
+    }
+
+    .search2{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .search2{
+        width: 70%;
+    }
+    .search2 input{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .search2{
+        width: 80%;
+    }
+
+    .search2 input{
+        width: 85%;
+    }
+}
+
+/*Sign Up Sign In page*/
+
+.boxcover{
+    height: 75%;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 30px rgba(5, 190, 243, 1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxcover h1{    
+    margin-bottom: 8%;
+    margin-top: 10%;
+}
+
+.phn_in{
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 70%;
+    height: 34px;
+}
+
+.codebtn{
+    border: none;
+    background: transparent;
+    height: 34px;
+    width: 28%;
+    border-radius: 0 0 6px;
+}
+
+.codebtn:hover{
+    color: #056cf3;
+}
+
+.boxcover .sociallogins{
+    width: 100%;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.sociallogins i{
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.boxcover .sociallogins1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.sociallogins1 i{
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.signinbtn{
+    background-color: rgba(5, 108, 243, 0.8);
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.signinbtn:hover {
+    background: rgba(5, 108, 243, 1.0);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+.signupbtn{
+    border: none;
+    background-color: rgba(245, 5, 9, 0.8);
+    border-radius: 10px;
+    height: 40px;
+}
+
+.signupbtn:hover{
+    background: rgba(243, 5, 10, 1.0);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+    border: none;
+}
+
+.signInlink:hover{
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 480px) {
+    .boxcover{
+        width: 80%;
+        height: 60%;
+    }
+}
+
+/*Sign Up Sign In page*/
